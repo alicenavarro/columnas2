@@ -1,0 +1,46 @@
+*{
+    position: static;
+}
+
+caption>span{
+    text-align: center;
+    line-height: 1px; 
+    font-size: 32px;
+    background-color: aqua;
+
+}  
+    
+table{
+    text-align: center;
+    position: static;
+    height: 200px;
+    width: 500px;
+    border: 5px solid black;
+    background-color:bisque;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+    font-size: 20px;
+    
+    
+
+}
+
+table > tbody > tr >td{
+    border-left: 2px collapse black;
+    border-right: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: bisque;
+
+}   
+
+tfoot{
+    text-align: center;
+    position: static;
+    background-color:aqua;
+
+    
+    
+}
